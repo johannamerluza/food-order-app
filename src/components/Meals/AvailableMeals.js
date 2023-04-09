@@ -37,6 +37,7 @@ const AvailableMeals = () => {
         description={meal.description}
         name={meal.name}
         price={meal.price}
+        id={meal.id}
       />
     );
   });
